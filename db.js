@@ -4,7 +4,7 @@ const conecta = mysql.createConnection
 {
 host: 'localhost', // endereço banco
 user: 'root', // usuário padrão
-database: "exerciciodb"
+database: "clientes"
 }
 );
 module.exports = {conecta}
